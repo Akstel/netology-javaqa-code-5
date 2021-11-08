@@ -9,7 +9,6 @@ public class SQRService {
                 count = count + 1;
 
             }
-
         }
         return count;
     }

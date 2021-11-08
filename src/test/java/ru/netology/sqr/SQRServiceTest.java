@@ -16,9 +16,8 @@ class SQRServiceTest {
     void shouldRootOfNumber(String testName, int minNumber, int maxNumber, int expected) {
         SQRService service = new SQRService();
 
-        long actual = service.rootOfNumber(minNumber, maxNumber);
+        long actual =service.rootOfNumber(minNumber, maxNumber);
         assertEquals(expected, actual);
     }
-
 
 }
